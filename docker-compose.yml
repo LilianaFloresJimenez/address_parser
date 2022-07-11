@@ -3,4 +3,4 @@ services:
     python:
         build: .
         volumes:
-            - .:/code
+            - .:/usr/src/app
