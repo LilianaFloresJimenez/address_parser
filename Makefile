@@ -1,2 +1,8 @@
+build:
+	docker-compose build
+
 test:
-	./venv/bin/pytest ./tests/unit
+	docker-compose run --rm python bash -c "pytest ./tests/unit"
+
+enter:
+	docker-compose run --rm python /bin/bash
