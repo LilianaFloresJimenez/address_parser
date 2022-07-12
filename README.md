@@ -14,5 +14,6 @@ This project deal only with some specific concatenated street names and numbers.
 ## How to run the test
 ```shell
 # In project directory
+make build
 make test
 ```
