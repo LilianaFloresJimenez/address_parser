@@ -10,11 +10,9 @@ This project deal only with some specific concatenated street names and numbers.
 ## Environment
 - docker > 20.10.17
 - docker-compose > 1.25.0
-- Virtual environment
 
 ## How to run the test
 ```shell
 # In project directory
-make run
 make test
 ```
