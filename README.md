@@ -1,4 +1,4 @@
-# Street-number address Separator
+# Address parser
 This project deal only with some specific concatenated street names and numbers. 
 
 ## General
@@ -8,7 +8,7 @@ This project deal only with some specific concatenated street names and numbers.
 - Code can be run only by test at the moment.
 
 ## Environment
-- docker > 20.10.17
+- docker > 20.10.14(This version was tested)
 - docker-compose > 1.25.0
 
 ## How to run the test
